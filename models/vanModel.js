@@ -1,17 +1,14 @@
 const mongoose = require('mongoose');
 
 const vanSchema = new mongoose.Schema({
-  van_id:'number',
-  name:'string',
-  description:'string',
-  location:'string',
-  price_per_day:'number',
-  availability:'Boolean',
-  created_at:'number',
-  updated_at:'number',
-
-
-
+  van_id: String,
+  name: String,
+  description:String,
+  location:String,
+  price_per_day: Number,
+  availability: Boolean,
+  created_at: Number,
+  updated_at: Number,
 
 });
 

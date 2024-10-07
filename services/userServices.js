@@ -1,5 +1,5 @@
 // services/userServices.js  
-const User = require('../models/User'); // Model for User
+const User = require('../models/userModel'); // Model for User
 
 // Create a new user
 const createUser = async (name, email, password) => {

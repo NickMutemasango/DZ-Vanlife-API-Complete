@@ -1,6 +1,6 @@
 
-const Review = require('../models/Review'); // Model for Review
-const Booking = require('../models/Booking'); // Model for Booking (to validate the associated booking)
+const Review = require('../models/reviewModel'); // Model for Review
+const Booking = require('../models/bookingModel'); // Model for Booking (to validate the associated booking)
 
 // Function to create a review
 const createReview = async (userId, bookingId, rating, comment) => {

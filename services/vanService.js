@@ -1,4 +1,4 @@
-const Van = require('../models/Van'); // Model for Van
+const Van = require('../models/vanModel'); // Model for Van
 
 // Create a new van
 const createVan = async (ownerId, make, model, year, pricePerNight) => {
